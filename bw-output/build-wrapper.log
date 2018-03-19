@@ -1,0 +1,229 @@
+Mon Mar 19 14:00:44 2018: build-wrapper, version 5.1 (linux-x86)
+Mon Mar 19 14:00:44 2018: System name: Linux Nodename: jchavez Release: 4.13.0-37-generic Version: #42~16.04.1-Ubuntu SMP Wed Mar 7 16:03:28 UTC 2018 Machine: x86_64
+Mon Mar 19 14:00:44 2018: socket path: /tmp/build-wrapper-socket.QL52aR
+Mon Mar 19 14:00:44 2018: dynamic library found: /home/jenny/sonar/build-wrapper-linux-x86/libinterceptor-i686.so
+Mon Mar 19 14:00:44 2018: dynamic library found: /home/jenny/sonar/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Mon Mar 19 14:00:44 2018: command executed as: <build-wrapper-linux-x86-64>
+Mon Mar 19 14:00:44 2018: command line received: <make clean all>
+Mon Mar 19 14:00:44 2018: env 0: <XDG_VTNR=7>
+Mon Mar 19 14:00:44 2018: env 1: <LC_PAPER=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 2: <ORBIT_SOCKETDIR=/tmp/orbit-jenny>
+Mon Mar 19 14:00:44 2018: env 3: <LC_ADDRESS=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 4: <XDG_SESSION_ID=c2>
+Mon Mar 19 14:00:44 2018: env 5: <XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/jenny>
+Mon Mar 19 14:00:44 2018: env 6: <IBUS_DISABLE_SNOOPER=1>
+Mon Mar 19 14:00:44 2018: env 7: <LC_MONETARY=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 8: <TERMINATOR_UUID=urn:uuid:cc5a8ffd-7a39-4050-942b-42f539d684b9>
+Mon Mar 19 14:00:44 2018: env 9: <CLUTTER_IM_MODULE=xim>
+Mon Mar 19 14:00:44 2018: env 10: <SESSION=ubuntu>
+Mon Mar 19 14:00:44 2018: env 11: <GIO_LAUNCHED_DESKTOP_FILE_PID=5810>
+Mon Mar 19 14:00:44 2018: env 12: <GPG_AGENT_INFO=/home/jenny/.gnupg/S.gpg-agent:0:1>
+Mon Mar 19 14:00:44 2018: env 13: <XDG_MENU_PREFIX=gnome->
+Mon Mar 19 14:00:44 2018: env 14: <SHELL=/bin/bash>
+Mon Mar 19 14:00:44 2018: env 15: <TERM=xterm>
+Mon Mar 19 14:00:44 2018: env 16: <QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1>
+Mon Mar 19 14:00:44 2018: env 17: <WINDOWID=52428804>
+Mon Mar 19 14:00:44 2018: env 18: <LC_NUMERIC=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 19: <OLDPWD=/home/jenny/Ing de Software/ciaa_firmwarev2>
+Mon Mar 19 14:00:44 2018: env 20: <UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1156>
+Mon Mar 19 14:00:44 2018: env 21: <GNOME_KEYRING_CONTROL=>
+Mon Mar 19 14:00:44 2018: env 22: <GTK_MODULES=gail:atk-bridge:unity-gtk-module>
+Mon Mar 19 14:00:44 2018: env 23: <USER=jenny>
+Mon Mar 19 14:00:44 2018: env 24: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Mon Mar 19 14:00:44 2018: env 25: <LC_TELEPHONE=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 26: <QT_ACCESSIBILITY=1>
+Mon Mar 19 14:00:44 2018: env 27: <XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0>
+Mon Mar 19 14:00:44 2018: env 28: <XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0>
+Mon Mar 19 14:00:44 2018: env 29: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Mon Mar 19 14:00:44 2018: env 30: <DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path>
+Mon Mar 19 14:00:44 2018: env 31: <SESSION_MANAGER=local/jchavez:@/tmp/.ICE-unix/1390,unix/jchavez:/tmp/.ICE-unix/1390>
+Mon Mar 19 14:00:44 2018: env 32: <GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/terminator.desktop>
+Mon Mar 19 14:00:44 2018: env 33: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg>
+Mon Mar 19 14:00:44 2018: env 34: <DESKTOP_SESSION=ubuntu>
+Mon Mar 19 14:00:44 2018: env 35: <PATH=/home/jenny/bin:/home/jenny/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jenny/sonar/sonar-scanner-3.0.3.778-linux/bin:/home/jenny/sonar/build-wrapper-linux-x86>
+Mon Mar 19 14:00:44 2018: env 36: <QT_IM_MODULE=ibus>
+Mon Mar 19 14:00:44 2018: env 37: <QT_QPA_PLATFORMTHEME=appmenu-qt5>
+Mon Mar 19 14:00:44 2018: env 38: <LC_IDENTIFICATION=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 39: <XDG_SESSION_TYPE=x11>
+Mon Mar 19 14:00:44 2018: env 40: <PWD=/home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: env 41: <JOB=unity-settings-daemon>
+Mon Mar 19 14:00:44 2018: env 42: <XMODIFIERS=@im=ibus>
+Mon Mar 19 14:00:44 2018: env 43: <GNOME_KEYRING_PID=>
+Mon Mar 19 14:00:44 2018: env 44: <LANG=en_US.UTF-8>
+Mon Mar 19 14:00:44 2018: env 45: <GDM_LANG=en_US>
+Mon Mar 19 14:00:44 2018: env 46: <MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path>
+Mon Mar 19 14:00:44 2018: env 47: <LC_MEASUREMENT=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 48: <COMPIZ_CONFIG_PROFILE=ubuntu-lowgfx>
+Mon Mar 19 14:00:44 2018: env 49: <IM_CONFIG_PHASE=1>
+Mon Mar 19 14:00:44 2018: env 50: <GDMSESSION=ubuntu>
+Mon Mar 19 14:00:44 2018: env 51: <SESSIONTYPE=gnome-session>
+Mon Mar 19 14:00:44 2018: env 52: <GTK2_MODULES=overlay-scrollbar>
+Mon Mar 19 14:00:44 2018: env 53: <SHLVL=1>
+Mon Mar 19 14:00:44 2018: env 54: <HOME=/home/jenny>
+Mon Mar 19 14:00:44 2018: env 55: <XDG_SEAT=seat0>
+Mon Mar 19 14:00:44 2018: env 56: <LANGUAGE=en_US>
+Mon Mar 19 14:00:44 2018: env 57: <LIBGL_ALWAYS_SOFTWARE=1>
+Mon Mar 19 14:00:44 2018: env 58: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Mon Mar 19 14:00:44 2018: env 59: <UPSTART_INSTANCE=>
+Mon Mar 19 14:00:44 2018: env 60: <UPSTART_EVENTS=xsession started>
+Mon Mar 19 14:00:44 2018: env 61: <XDG_SESSION_DESKTOP=ubuntu>
+Mon Mar 19 14:00:44 2018: env 62: <LOGNAME=jenny>
+Mon Mar 19 14:00:44 2018: env 63: <COMPIZ_BIN_PATH=/usr/bin/>
+Mon Mar 19 14:00:44 2018: env 64: <DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-I4TuxB6HxU>
+Mon Mar 19 14:00:44 2018: env 65: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Mon Mar 19 14:00:44 2018: env 66: <QT4_IM_MODULE=xim>
+Mon Mar 19 14:00:44 2018: env 67: <LESSOPEN=| /usr/bin/lesspipe %s>
+Mon Mar 19 14:00:44 2018: env 68: <INSTANCE=>
+Mon Mar 19 14:00:44 2018: env 69: <UPSTART_JOB=unity7>
+Mon Mar 19 14:00:44 2018: env 70: <XDG_RUNTIME_DIR=/run/user/1000>
+Mon Mar 19 14:00:44 2018: env 71: <DISPLAY=:0>
+Mon Mar 19 14:00:44 2018: env 72: <XDG_CURRENT_DESKTOP=Unity>
+Mon Mar 19 14:00:44 2018: env 73: <GTK_IM_MODULE=ibus>
+Mon Mar 19 14:00:44 2018: env 74: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Mon Mar 19 14:00:44 2018: env 75: <LC_TIME=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 76: <LC_NAME=es_AR.UTF-8>
+Mon Mar 19 14:00:44 2018: env 77: <XAUTHORITY=/home/jenny/.Xauthority>
+Mon Mar 19 14:00:44 2018: env 78: <COLORTERM=gnome-terminal>
+Mon Mar 19 14:00:44 2018: env 79: <_=/home/jenny/sonar/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Mon Mar 19 14:00:44 2018: executing: <make clean all>
+Mon Mar 19 14:00:44 2018: initializing json file
+Mon Mar 19 14:00:44 2018: process created with pid: 15758
+Mon Mar 19 14:00:44 2018: parent pid: 15755
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </home/jenny/sonar/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Mon Mar 19 14:00:44 2018: argv[0]: <build-wrapper-linux-x86-64>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <>
+Mon Mar 19 14:00:44 2018: argv[3]: <make>
+Mon Mar 19 14:00:44 2018: argv[4]: <clean>
+Mon Mar 19 14:00:44 2018: argv[5]: <all>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15758
+Mon Mar 19 14:00:44 2018: process created with pid: 15759
+Mon Mar 19 14:00:44 2018: parent pid: 15758
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </usr/bin/make>
+Mon Mar 19 14:00:44 2018: argv[0]: <make>
+Mon Mar 19 14:00:44 2018: argv[1]: <clean>
+Mon Mar 19 14:00:44 2018: argv[2]: <all>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15759
+Mon Mar 19 14:00:44 2018: process created with pid: 15760
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "Clean project...">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15760
+Mon Mar 19 14:00:44 2018: process created with pid: 15761
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15761
+Mon Mar 19 14:00:44 2018: process created with pid: 15762
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <rm -f out/lpc4337_m4/obj/*.*>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15762
+Mon Mar 19 14:00:44 2018: process created with pid: 15763
+Mon Mar 19 14:00:44 2018: parent pid: 15762
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/rm>
+Mon Mar 19 14:00:44 2018: argv[0]: <rm>
+Mon Mar 19 14:00:44 2018: argv[1]: <-f>
+Mon Mar 19 14:00:44 2018: argv[2]: <out/lpc4337_m4/obj/*.*>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15763
+Mon Mar 19 14:00:44 2018: process created with pid: 15764
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <rm -f out/lpc4337_m4/*.*>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15764
+Mon Mar 19 14:00:44 2018: process created with pid: 15765
+Mon Mar 19 14:00:44 2018: parent pid: 15764
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/rm>
+Mon Mar 19 14:00:44 2018: argv[0]: <rm>
+Mon Mar 19 14:00:44 2018: argv[1]: <-f>
+Mon Mar 19 14:00:44 2018: argv[2]: <out/lpc4337_m4/*.*>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15765
+Mon Mar 19 14:00:44 2018: process created with pid: 15766
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <rm -f *.launch>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15766
+Mon Mar 19 14:00:44 2018: process created with pid: 15767
+Mon Mar 19 14:00:44 2018: parent pid: 15766
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/rm>
+Mon Mar 19 14:00:44 2018: argv[0]: <rm>
+Mon Mar 19 14:00:44 2018: argv[1]: <-f>
+Mon Mar 19 14:00:44 2018: argv[2]: <*.launch>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15767
+Mon Mar 19 14:00:44 2018: process created with pid: 15768
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15768
+Mon Mar 19 14:00:44 2018: process created with pid: 15769
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "Clean complete.">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15769
+Mon Mar 19 14:00:44 2018: process created with pid: 15770
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15770
+Mon Mar 19 14:00:44 2018: process created with pid: 15771
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "Build project...">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15771
+Mon Mar 19 14:00:44 2018: process created with pid: 15772
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15772
+Mon Mar 19 14:00:44 2018: process created with pid: 15773
+Mon Mar 19 14:00:44 2018: parent pid: 15759
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </usr/bin/make>
+Mon Mar 19 14:00:44 2018: argv[0]: <make>
+Mon Mar 19 14:00:44 2018: argv[1]: <blinky>
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15773
+Mon Mar 19 14:00:44 2018: process created with pid: 15774
+Mon Mar 19 14:00:44 2018: parent pid: 15773
+Mon Mar 19 14:00:44 2018: working directory: </home/jenny/Ing de Software/ciaa_firmwarev2/firmware_v2>
+Mon Mar 19 14:00:44 2018: executable: </bin/dash>
+Mon Mar 19 14:00:44 2018: argv[0]: </bin/sh>
+Mon Mar 19 14:00:44 2018: argv[1]: <-c>
+Mon Mar 19 14:00:44 2018: argv[2]: <echo "*** compiling C file modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c ***">
+Mon Mar 19 14:00:44 2018: skipping process with pid: 15774
+Mon Mar 19 14:00:44 2018: finalizing json file
+Mon Mar 19 14:00:44 2018: returned with code: 2
